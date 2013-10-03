@@ -1,0 +1,1527 @@
+@font-face {
+	font-family: 'PFDinDisplayPro-Black';
+	src: url('../fonts/eot/PFDinDisplayPro-Black.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Black.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Blackit';
+	src: url('.../fonts/eot/PFDinDisplayPro-Blackit.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Blackit.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Blackit.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Bold';
+	src: url('../fonts/eot/PFDinDisplayPro-Bold.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Bold.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Bold.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Boldital';
+	src: url('../fonts/eot/PFDinDisplayPro-Boldital.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Boldital.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Boldital.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Italic';
+	src: url('../fonts/eot/PFDinDisplayPro-Italic.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Italic.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Italic.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Light';
+	src: url('../fonts/eot/PFDinDisplayPro-Light.eot?') format('eot'),
+	url('../fonts/woff/PFDinDisplayPro-Light.woff') format('woff'),
+	url('../fonts/ttf/PFDinDisplayPro-Light.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Lightital';
+	src:url('../fonts/eot/PFDinDisplayPro-Lightital.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Lightital.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Lightital.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Med';
+	src: url('../fonts/eot/PFDinDisplayPro-Med.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Med.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Med.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Medital';
+	src: url('../fonts/eot/PFDinDisplayPro-Medital.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Medital.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Medital.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Reg';
+	src: url('../fonts/eot/PFDinDisplayPro-Reg.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Reg.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Reg.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Thin';
+	src: url('../fonts/eot/PFDinDisplayPro-Thin.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Thin.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Thin.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Thinital';
+	src: url('../fonts/eot/PFDinDisplayPro-Thinital.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-Thinital.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-Thinital.ttf') format('truetype');
+} 
+
+@font-face {
+	font-family: 'PFDinDisplayPro-XThin';
+	src: url('../fonts/eot/PFDinDisplayPro-XThin.eot?') format('eot'),
+		url('../fonts/woff/PFDinDisplayPro-XThin.woff') format('woff'),
+		url('../fonts/ttf/PFDinDisplayPro-XThin.ttf') format('truetype');
+} 
+
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown:hover > a {
+ 	background-image: -moz-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+ 	padding-bottom: 22px !important;
+ 	color: #000 !important;
+}
+
+.qtrans_flag {
+	background-position: 12px 13px !important;
+	padding-bottom: 18px !important;
+}
+
+body {
+	font-family: 'PFDinDisplayPro-Reg', Arial, sans-serif;
+}
+.carousel-inner {
+
+}
+li {
+	float: left;
+}
+a {
+	color: #595959;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+	font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+	font-weight: lighter;
+	margin: 0;
+}
+h3 {
+	font-size: 22.38px;
+}
+h5 {
+	font-weight: lighter;
+    letter-spacing: 0.3px;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 0;
+  margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+.navbar-wrapper .navbar {
+
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+  border: 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.64);
+     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.64);
+          box-shadow: 0 2px 10px rgba(0,0,0,.64);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+}
+.carousel {
+	position: relative !important;
+}
+.bg-white {
+	background: #fff;
+}
+.bg-grey {
+	background: #f0f0f0;
+}
+
+.breadcrumbs {
+	font-size: 12px;
+	font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+	text-transform: uppercase;
+}
+.border {
+	padding: 10px 10px 0 30px;
+}
+.single-text h1 {
+	color: #000;
+	font-size: 42px;
+	margin: 20px 0;
+}
+
+.single-text small {
+	text-transform: uppercase;
+}
+
+.transparent-bg {
+	background: url("../images/bg-slide-t.png") repeat-x scroll 0 top transparent;
+	height: 100px;
+	position: absolute;
+	top: 593px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.single-text small:after {
+	background: none repeat scroll 0 0 #D0D0D0;
+	color: #E7CC14;
+	content: "";
+	display: block;
+	height: 1px;
+	margin: 2px 0 5px;
+	width: 100%;
+}
+
+.single-text p {
+	color: #818181;
+	letter-spacing: 0.2px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+.int-image-single img {
+	margin: 90px 20px 100px 130px;
+}
+
+.coroa {
+	background: url("../images/coroa.png") no-repeat scroll 262px 0 transparent;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0px;
+}
+
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
+
+.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+}
+
+.carousel-caption {
+  background-color: transparent;
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+
+
+.logo a{
+	float: left;
+	margin: 9px 0;
+}
+.navbar-inner {
+	border-radius: 0;
+	background: rgba(0,0,0,0.8) !important;
+    background-image: linear-gradient(to bottom, #000000, #000000, 0.8) !important;
+    border: none !important;
+    height: 106px;
+}
+.menu-edit .nav {
+	float: right;
+	margin-right: 0;
+	margin-top: 14px;
+}
+.menu-edit .nav > li {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+}
+.menu-edit .nav > li a:before {
+    color: rgba(255,255,255,0.3);
+	content: "• ";
+	float: left;
+	font-size: 24px;
+	margin-right: 12px;
+	margin-top: 0;
+}
+.menu-edit .nav > li a{
+    color: #fff;
+    padding: 10px 7px 10px 7px;
+    text-shadow: none !important;
+}
+.menu-edit .dropdown-menu {
+	left: -370px;
+	width: 961px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(204,204,204) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(204,204,204) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(204,204,204) 100%);
+	opacity: 1.0;
+	top: 50px;
+
+}
+
+.navbar-inverse .nav li.dropdown.open > 
+.dropdown-toggle, .navbar-inverse .nav li.dropdown.active > 
+.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > 
+.dropdown-toggle {
+	color: #000000;
+}
+
+.open a:before  {
+	color: #808080 !important;
+	content: "• ";
+}
+
+.dropdown-menu li a:before {
+	content: none !important;
+}
+
+.navbar-inverse .nav li.dropdown.open > 
+.dropdown-toggle, .navbar-inverse .nav li.dropdown.active > 
+.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+
+	background-image: -moz-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	padding-bottom: 22px;
+}
+.navbar .nav > li > .dropdown-menu:after {
+	content: none;
+}
+.menu-edit .dropdown-submenu .dropdown-menu {
+	left: 0;
+	width: 961px;
+	top: 52px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background: #fff;
+	opacity: 1.0;
+	padding-bottom: 10px !important;
+}
+.menu-edit #menu-item-16 .dropdown-menu {
+    left: -140px;
+}
+.menu-edit #menu-item-17 .dropdown-menu {
+    left: -254px;
+}
+.menu-edit #menu-item-18 .dropdown-menu {
+    left: -547px;
+}
+.menu-edit #menu-item-19 .dropdown-menu {
+    left: -387px;
+}
+.menu-edit #menu-item-22 .dropdown-menu {
+    left: -693px;
+}
+
+.menu-edit #menu-item-23 .dropdown-menu {
+    left: -843px;
+}
+
+
+#menu-item-64 .dropdown-menu {
+	left: -515px;
+}
+
+.menu-edit #menu-item-98 .dropdown-menu {
+    left: 0;
+}
+.menu-edit #menu-item-99 .dropdown-menu {
+    left: -141px;
+}
+
+
+.menu-edit #menu-item-100 .dropdown-menu {
+    left: -274px;
+}
+
+.menu-edit #menu-item-101 .dropdown-menu {
+    left: -417px;
+}
+
+.menu-edit #menu-item-102 .dropdown-menu {
+    left: -544px;
+}
+
+
+.dropdown-submenu > a:after {
+	border-color: transparent;
+	content: none;
+}
+.caret {
+	display: none;
+}
+.search, .buy, .member, .contact {
+	background: url(../images/sprites.png) no-repeat;
+	margin-right: 10px;
+}
+.search {
+	float: left;
+	height: 24px;
+	width: 23px;
+	margin-top: -5px;
+}
+.buy {
+	background-position: 0 -33px ;
+	float: left;
+	height: 24px;
+	width: 23px;
+	margin-top: -3px;
+}
+.member {
+	background-position: 0 -64px ;
+	float: left;
+	height: 24px;
+	width: 23px;
+	margin-top: -2px;
+}
+.contact {
+	background-position: 0 -90px ;
+	float: left;
+	height: 24px;
+	width: 23px;
+	margin-top: -3px;
+}
+
+.menu-member .nav {
+	float: right;
+	margin-right: 0;
+}
+.menu-member .nav > li {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+    border-left: 1px solid rgba(88, 88, 90, 0.5);
+}
+.menu-member .nav > li a{
+    color: #a2a2a2;
+    padding: 10px 17px 10px 7px;
+    text-shadow: none !important;
+    font-size: 10px;
+}
+
+.menu-edit .dropdown .dropdown-menu{
+	padding:0 ;
+}
+.menu-edit .dropdown .dropdown-menu li {
+	height: 46px;
+	border-right: 2px dotted #CFCFCF;
+}
+.menu-edit .dropdown .dropdown-menu li:last-child {
+	border-right: none;
+}
+.menu-edit .dropdown .dropdown-menu li a {
+	padding: 15px 23.3px 11px;
+	color: #808080;
+}
+
+.menu-edit .mens .dropdown-menu li a {
+	padding: 1.2em 2.893em 0.64em;
+}
+.menu-edit .homans .dropdown-menu li a {
+	padding: 1.2em 2.893em 0.64em;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.menu-edit .mens .dropdown-menu li a {
+	padding: 1.2em 2.862em 0.64em;
+}
+}
+
+
+.menu-edit .dropdown .dropdown-menu li a:hover {
+	background-image: none;
+	background-color: #cacbca;
+}
+
+.menu-edit .dropdown .dropdown-menu li > ul li a{
+	padding: 0 0 6px 0;
+	width: 161px;
+}
+
+.menu-edit .dropdown .dropdown-menu > li > a:hover,
+.menu-edit .dropdown .dropdown-menu > li > a:focus,
+.menu-edit .dropdown .dropdown-submenu:hover > a,
+.menu-edit .dropdown .dropdown-submenu:focus > a {
+	background-image: none !important;
+	background-color: #cacbca !important;
+}
+
+.dropdown-submenu ul li {
+	height: 235px !important;
+}
+.dropdown-submenu ul li a{
+	float: left;
+	margin-top: 11px;
+	text-align: center;
+	width: 147px;
+}
+.dropdown-submenu ul li a:hover {
+	color: #fff !important;
+}
+.dropdown-submenu > .dropdown-menu {
+	margin-left: 0;
+}
+.nicescroll-rails {
+	z-index: 9999 !important;
+}
+.rodape-bg {
+    background: none repeat scroll 0 0 #1B1B1B;
+    padding: 31px 0;
+}
+.logo-rodape {
+	border-right: 1px solid #222222;
+    width: 142.4px;
+}
+
+.rodape-bg li:after {
+	background: none repeat scroll 0 0 #313131;
+	color: #DFE1E3;
+	content: "";
+	display: block;
+	height: 1px;
+	margin: 4px 0;
+	width: 143px;
+}
+.rodape-bg ul {
+	margin: 0px;
+	width: 100%;
+}
+.rodape-bg li {
+	float: left;
+    font-size: 10px;
+    list-style: none outside none;
+    text-transform: uppercase;
+    width: 143px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.rodape-bg li ul {
+	float: left;
+	margin-top: 16px;
+}
+.rodape-bg li ul li {
+	margin: 0;
+}
+.rodape-bg li ul li:after {
+	content: none;
+}
+.rodape-bg li ul li a{
+	color: #4c4c4c;
+	font-size: 10px;
+}
+
+.rodape-bg li a{
+	color: #fff;
+}
+
+.rodape-bg li a:hover{
+	color: #fff;
+    text-decoration: none;
+}
+.f-rodape {
+	padding: 7px 0 4px;
+}
+.f-rodape small {
+	color: #595959;
+}
+.f-rodape small:last-child {
+	float: right;
+}
+.conteudo-home {
+	padding-bottom: 40px;
+}
+.conteudo-home .thumbnail  {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    display: block;
+    line-height: 20px;
+    padding: 0;
+    transition: all 0.2s ease-in-out 0s;
+}
+.conteudo-home .thumbnail .caption {
+	padding: 0;
+}
+.conteudo-home p {
+	font-family: 'PFDinDisplayPro-Reg', Arial, sans-serif;
+	font-size: 13px;
+}
+.conteudo-home h4:after {
+	background: none repeat scroll 0 0 #c0c0c0;
+	color: #DFE1E3;
+	content: "";
+	display: block;
+	height: 2px;
+	margin: 4px 0 20px;
+	width: 50px;
+}
+
+.conteudo-home .btn-primary {
+	background-image: -moz-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(204,204,204) 0%, rgb(238,238,238) 100%);
+	border-color: #AEAEAE;
+	border-radius: 2px 2px 2px 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: #1D1D1D;
+	font-family: 'PFDinDisplayPro-Blackit',Arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 31px;
+	text-shadow: none;
+	padding: 14px 33px 0;
+}
+.conteudo-home .btn:hover, .conteudo-home .btn:focus {
+	background-position: 0 0
+}
+.conteudo-home .btn-primary:hover, .conteudo-home .btn-primary:focus, 
+.conteudo-home .btn-primary:active, .conteudo-home .btn-primary.active, 
+.conteudo-home .btn-primary.disabled, .conteudo-home .btn-primary[disabled] {
+	background-image: -moz-linear-gradient( 90deg, rgb(238,238,238) 0%, rgb(204,204,204) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(238,238,238) 0%, rgb(204,204,204) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(238,238,238) 0%, rgb(204,204,204) 100%);
+}
+.conteudo-home .thumbnail img {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.titulo-conteudo small {
+	color: #4F4F4F;
+	float: left;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	margin-top: -12px;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+textarea, input[type="text"], input[type="password"], 
+input[type="datetime"], input[type="datetime-local"], 
+input[type="date"], input[type="month"], input[type="time"], 
+input[type="week"], input[type="number"], input[type="email"], 
+input[type="url"], input[type="search"], input[type="tel"], 
+input[type="color"], .uneditable-input {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	height: 38px;
+	width: 100%;
+	border:none;
+}
+.video-conteudo {
+	background: #1b1b1b;
+	padding: 110px 0 60px;
+	-webkit-box-shadow: 0 2px 10px #000000 inset;
+	-moz-box-shadow: 0 2px 10px #000000 inset;
+	box-shadow: 0 2px 10px #000000 inset;
+}
+.video-conteudo .span7 {
+	background: url("../images/rod-vid.png") no-repeat scroll 0 179px transparent;
+	padding-bottom: 50px;
+}
+.video-conteudo h4 {
+	line-height: 36px;
+	margin-bottom: 21px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+.video-conteudo .text-video p {
+	color: #fff;
+	font-family: 'PFDinDisplayPro-Thin', Arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.4px;
+	line-height: 25px;
+}
+.video-conteudo .red {
+	color: #C0000C;
+    font-size: 24.92px;
+    font-family: 'PFDinDisplayPro-Reg', Arial, sans-serif;
+}
+.video-conteudo .black {
+	background: none repeat scroll 0 0 #000000;
+	font-size: 24.92px;
+	padding: 8px 6px 1px;
+	font-family: 'PFDinDisplayPro-XThin', Arial, sans-serif;
+	margin-right: 80px;
+}
+
+.black-grey {
+	background: #131313;
+}
+
+
+.view {
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    height: 270px;
+    margin-bottom: 30px;
+}
+.view .mask, .view .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: absolute;
+    width: 153px;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	right: 0;
+	top: 0;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+
+.view-tenth .mask {
+    background-color: rgba(255, 255, 255, 0.78);
+	border: 10px solid rgba(0, 0, 0, 0.4);
+	border-radius: 50% 50% 50% 50%;
+	height: 160px;
+	margin-left: 21px;
+	margin-top: 44px;
+	opacity: 0;
+	transition: all 0.5s linear 0s;
+	-webkit-transition: all 0.5s linear 0s;
+	width: 160px;
+}  
+.view-tenth h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view-tenth p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-tenth a.info {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+
+.view-tenth:hover .mask {
+    opacity: 1;
+}                                                                           
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info{
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+
+.related-post h4 {
+	margin: 30px;
+}
+
+.video-conteudo .white-up {
+	font-size: 44.5px;
+	font-family: 'PFDinDisplayPro-XThin', Arial, sans-serif;
+	display: block;
+}
+.video-conteudo .red-up {
+	color: #C0000C;
+    font-size: 43.5px;
+    font-family: 'PFDinDisplayPro-Reg', Arial, sans-serif;
+}
+.since-conteudo {
+	padding: 40px 0;
+	background-image: url(../images/davinci.jpg);
+	background-color: #f5f5f5;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+}
+.since-conteudo h4 {
+	border-bottom: 1px solid #CCCABA;
+	border-top: 1px solid #CCCABA;
+	color: #544B00;
+	font-family: 'PFDinDisplayPro-Reg',Arial,sans-serif;
+	font-size: 39.16px;
+	line-height: 32px;
+	padding: 24px 0 11px;
+}
+.small-since {
+	font-family: 'PFDinDisplayPro-XThin', Arial, sans-serif;
+	font-size: 22.25px;
+	color: #908c75;
+}
+.m-since {
+	margin-right: 20px;
+}
+.since-conteudo p{
+	font-size: 19px;
+	line-height: 27px;
+	margin-top: 40px;
+	color: #746B50;
+}
+.since-conteudo .btn-primary {
+	background-image: -moz-linear-gradient( 90deg, rgb(84,75,0) 0%, rgb(114,104,23) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(84,75,0) 0%, rgb(114,104,23) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(84,75,0) 0%, rgb(114,104,23) 100%);
+	border-radius: 2px 2px 2px 2px;
+	color: #f0f0f0;
+	font-family: 'PFDinDisplayPro-Blackit',Arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 31px;
+	text-shadow: none;
+	padding: 14px 33px 0;
+	border: none;
+	margin-top: 20px;
+}
+.since-conteudo .btn:hover, .since-conteudo .btn:focus {
+	background-position: 0 0
+}
+.since-conteudo .btn-primary:hover, .since-conteudo .btn-primary:focus, 
+.since-conteudo .btn-primary:active, .since-conteudo .btn-primary.active, 
+.since-conteudo .btn-primary.disabled, .since-conteudo .btn-primary[disabled] {
+	background-image: -moz-linear-gradient( 90deg, rgb(114,104,23) 0%, rgb(84,75,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(114,104,23) 0%, rgb(84,75,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(114,104,23) 0%, rgb(84,75,0) 100%);
+}
+.menu-member .widget-title {
+	display: none;
+}
+
+.single-int {
+	height: 258px;
+}
+
+.single-int h2 {
+	font-family: 'PFDinDisplayPro-Reg',Arial,sans-serif;
+	font-size: 68px;
+	font-weight: lighter;
+	margin-top: 156px;
+	text-transform: uppercase;
+	text-shadow: 0 0 32px #000000;
+}
+
+
+/*------------ARTIGOS------------*/
+
+.caixa, .pulseira, .visor, .cronografo, .calendario, .movimento, .fecho-deployant, 
+.escala-taqueometrica, .water-resistance, .mostrador, .maquinario-aparente, .cristais-especiais{
+	background: url("../images/sprite-relogio.png") no-repeat scroll -1px 0 transparent;
+	float: left;
+	height: 64px;
+	width: 174px;
+	margin-bottom: 10px;
+}
+
+.caixa span, .pulseira span, .visor span, .cronografo span, .calendario span, .movimento span, .fecho-deployant span, 
+.escala-taqueometrica span, .water-resistance span, .mostrador span, .maquinario-aparente span, .cristais-especiais span{
+	color: #181818;
+	float: left;
+	font-size: 12px;
+	margin-left: 92px;
+	margin-top: 11px;
+	text-transform: uppercase;
+}
+
+.pulseira {
+	background-position: 0px -56px;
+}
+.visor {
+	background-position: 3px -141px;
+}
+.cronografo {
+	background-position: 5px -208px;
+}
+.calendario {
+	background-position: 0 -282px;
+}
+.movimento {
+	background-position: 0 -353px;
+}
+.fecho-deployant {
+	background-position: 0 -427px;
+}
+.escala-taqueometrica {
+	background-position: 0 -500px;
+}
+.water-resistance {
+	background-position: 0 -573px;
+}
+.mostrador {
+	background-position: 0 -644px;
+}
+.maquinario-aparente {
+	background-position: 0 -718px;
+}
+.cristais-especiais {
+	background-position: 0 -784px;
+}
+
+
+
+/*-----------RELOGIOS------------*/
+
+.bigbang1, .bigbang2, .bigbang3, .bigbang4, .bigbang5, .bigbang6, .bigbang7, .boss1, .boss2, .boss3, .boss4, .boss5, .boss6, .boss7, .boss8, 
+.ceramic1, .ceramic2, .ceramic3, .ceramic4, .ceramic5, .ceramic6, .ceramic7, .ceramic8, .ceramic9, .ceramic10, .ceramic11, .ceramic12, .ceramic13,
+.cronov1, .cronov2 , .cronov3, .cronov4, .cronov5, .cronov6, .cronov7,
+.navigator1, .navigator2, .navigator3 {
+	width: 160px;
+	border: none !important;
+}
+.bigbang1 span, .bigbang2 span, .bigbang3 span, .bigbang4 span, .bigbang5 span, .bigbang6 span, .bigbang7 span, 
+.boss1 span, .boss2 span, .boss3 span, .boss4 span, .boss5 span, .boss6 span, .boss7 span, .boss8 span,
+.ceramic1 span, .ceramic2 span, .ceramic3 span, .ceramic4 span, .ceramic5 span, .ceramic6 span, .ceramic7 span, .ceramic8 span, .ceramic9 span, .ceramic10 span, .ceramic11 span, .ceramic12 span, .ceramic13 span,
+.cronov1 span, .cronov2 span, .cronov3 span, .studenglass1 span, .studenglass2 span, .cronov4 span, .cronov5 span, .cronov6 span, .cronov7 span,
+.navigator1 span, .navigator2 span, .navigator3 span  {
+	display: block;
+	margin-bottom: 10px;
+	padding: 188px 10px 10px;
+}
+.bigbang1 span {
+	background: url("../images/big1.png") no-repeat scroll center #ffffff;
+}
+.bigbang2 span {
+	background: url("../images/big2.png") no-repeat scroll center #ffffff;
+}
+.bigbang3 span {
+	background: url("../images/big3.png") no-repeat scroll center #ffffff;
+}
+.bigbang4 span {
+	background: url("../images/big4.png") no-repeat scroll center #ffffff;
+}
+.bigbang5 span {
+	background: url("../images/big5.png") no-repeat scroll center #ffffff;
+}
+
+.boss1 span {
+	background: url("../images/boss1.png") no-repeat scroll center #ffffff;
+}
+.boss2 span {
+	background: url("../images/boss2.png") no-repeat scroll center #ffffff;
+}
+.boss3 span {
+	background: url("../images/boss3.png") no-repeat scroll center #ffffff;
+}
+.boss4 span {
+	background: url("../images/boss4.png") no-repeat scroll center #ffffff;
+}
+.boss5 span {
+	background: url("../images/boss5.png") no-repeat scroll center #ffffff;
+}
+.boss6 span {
+	background: url("../images/boss6.png") no-repeat scroll center #ffffff;
+}
+
+.ceramic1 span {
+	background: url("../images/ceramic1.png") no-repeat scroll center #ffffff;
+}
+.ceramic2 span {
+	background: url("../images/ceramic2.png") no-repeat scroll center #ffffff;
+}
+.ceramic3 span {
+	background: url("../images/ceramic3.png") no-repeat scroll center #ffffff;
+}
+.ceramic4 span {
+	background: url("../images/ceramic4.png") no-repeat scroll center #ffffff;
+}
+.ceramic5 span {
+	background: url("../images/ceramic5.png") no-repeat scroll center #ffffff;
+}
+.ceramic6 span {
+	background: url("../images/ceramic6.png") no-repeat scroll center #ffffff;
+}
+.ceramic7 span {
+	background: url("../images/ceramic7.png") no-repeat scroll center #ffffff;
+}
+.ceramic8 span {
+	background: url("../images/ceramic8.png") no-repeat scroll center #ffffff;
+}
+.ceramic9 span {
+	background: url("../images/ceramic9.png") no-repeat scroll center #ffffff;
+}
+.ceramic10 span {
+	background: url("../images/ceramic10.png") no-repeat scroll center #ffffff;
+}
+.ceramic11 span {
+	background: url("../images/ceramic11.png") no-repeat scroll center #ffffff;
+}
+.ceramic12 span {
+	background: url("../images/ceramic12.png") no-repeat scroll center #ffffff;
+}
+.ceramic13 span {
+	background: url("../images/ceramic13.png") no-repeat scroll center #ffffff;
+}
+
+.cronov1 span {
+	background: url("../images/cronov1.png") no-repeat scroll center #ffffff;
+}
+.cronov2 span {
+	background: url("../images/cronov2.png") no-repeat scroll center #ffffff;
+}
+.cronov3 span {
+	background: url("../images/cronov3.png") no-repeat scroll center #ffffff;
+}
+.cronov4 span {
+	background: url("../images/cronov4.png") no-repeat scroll center #ffffff;
+}
+.cronov5 span {
+	background: url("../images/cronov5.png") no-repeat scroll center #ffffff;
+}
+.cronov6 span {
+	background: url("../images/cronov6.png") no-repeat scroll center #ffffff;
+}
+.cronov7 span {
+	background: url("../images/cronov7.png") no-repeat scroll center #ffffff;
+}
+
+.navigator01, .navigator02, .navigator03, .navigator04 {width: 160px;border: none !important;}
+
+
+
+.navigator01 span {
+	background: url("../images/watches/m/navigator/navigator01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; 
+}
+.navigator02 span {
+	background: url("../images/watches/m/navigator/navigator02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; 
+}
+.navigator03 span {
+	background: url("../images/watches/m/navigator/navigator03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; 
+}
+
+.navigator04 span {
+	background: url("../images/watches/m/navigator/navigator04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; 
+}
+
+
+/* newset pcitures */ 
+
+.studenglass1, .studenglass2, .studenglass3 {width: 160px;border: none !important;}
+
+
+.studenglass1 span {
+	background: url("../images/watches/m/studenglass/studenglas01.png") no-repeat scroll center #ffffff;
+
+	
+}
+
+.studenglass2 span {
+	background: url("../images/watches/m/studenglass/studenglas02.png") no-repeat scroll center #ffffff;
+	
+}
+
+.studenglass3 span {
+	background: url("../images/watches/m/studenglass/studenglas03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; width: 160px;
+	border: none !important;
+	
+}
+
+
+
+
+.classical1, .classical2, .classical3, .classical4, .classical5, .classical6, .classical7, .classical8, .classical9, .classical10, 
+.classical11, .classical12 {width: 160px;border: none !important;}
+
+
+.classical1 span {
+	background: url("../images/watches/m/classical/classic01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px; 
+}
+
+.classical2 span {
+	background: url("../images/watches/m/classical/classic02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical3 span {
+	background: url("../images/watches/m/classical/classic03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical4 span {
+	background: url("../images/watches/m/classical/classic04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical5 span {
+	background: url("../images/watches/m/classical/classic05.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical6 span {
+	background: url("../images/watches/m/classical/classic06.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical7 span {
+	background: url("../images/watches/m/classical/classic07.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical8 span {
+	background: url("../images/watches/m/classical/classic08.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical9 span {
+	background: url("../images/watches/m/classical/classic09.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical10 span {
+	background: url("../images/watches/m/classical/classic10.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.classical11 span {
+	background: url("../images/watches/m/classical/classic11.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+
+
+.navegator1 {width: 160px;border: none !important;}
+
+.navegator1 span {
+	background: url("../images/watches/m/navigator/navigator01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+.konig1, .konig2, .konig3 {width: 160px;border: none !important;}
+
+.konig1 span {
+	background: url("../images/watches/m/konig/konig01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.konig2 span {
+	background: url("../images/watches/m/konig/konig02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.konig3 span {
+	background: url("../images/watches/m/konig/konig03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+/* female section */
+
+.castle1, .castle2, .castle3, .castle4, .castle5, .castle6, .castle7, .castle8, .castle9, .castle10, .castle11, .castle12, .castle13 {width: 160px;border: none !important;}
+
+.castle1 span {
+	background: url("../images/watches/f/castle/castlef01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle2 span {
+	background: url("../images/watches/f/castle/castlef02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle3 span {
+	background: url("../images/watches/f/castle/castlef03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle4 span {
+	background: url("../images/watches/f/castle/castlef04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle5 span {
+	background: url("../images/watches/f/castle/castlef05.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle6 span {
+	background: url("../images/watches/f/castle/castlef06.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle7 span {
+	background: url("../images/watches/f/castle/castlef07.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle8 span {
+	background: url("../images/watches/f/castle/castlef08.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle9 span {
+	background: url("../images/watches/f/castle/castlef09.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle10 span {
+	background: url("../images/watches/f/castle/castlef10.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle11 span {
+	background: url("../images/watches/f/castle/castlef11.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle12 span {
+	background: url("../images/watches/f/castle/castlef12.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.castle13 span {
+	background: url("../images/watches/f/castle/castlef13.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+
+.ceramicf01, .ceramicf02, .ceramicf03, .ceramicf04, .ceramicf05, .ceramicf06, .ceramicf07, .ceramicf08, .ceramicf09 {width: 160px;border: none !important;}
+
+.ceramicf01 span {
+	background: url("../images/watches/f/ceramic/ceramicf01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf02 span {
+	background: url("../images/watches/f/ceramic/ceramicf02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf03 span {
+	background: url("../images/watches/f/ceramic/ceramicf03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf04 span {
+	background: url("../images/watches/f/ceramic/ceramicf04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf05 span {
+	background: url("../images/watches/f/ceramic/ceramicf05.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf06 span {
+	background: url("../images/watches/f/ceramic/ceramicf06.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf07 span {
+	background: url("../images/watches/f/ceramic/ceramicf07.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf08 span {
+	background: url("../images/watches/f/ceramic/ceramicf08.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.ceramicf09 span {
+	background: url("../images/watches/f/ceramic/ceramicf09.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+
+.elegancyf01, .elegancyf02, .elegancyf03, .elegancyf04, .elegancyf05, .elegancyf06, .elegancyf07, .elegancyf08, .elegancyf09, .elegancyf10, .elegancyf11, .elegancyf12, .elegancyf13 {width: 160px;border: none !important;}
+
+.elegancyf01 span {
+	background: url("../images/watches/f/elegancy/elegancyf01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf02 span {
+	background: url("../images/watches/f/elegancy/elegancyf02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf03 span {
+	background: url("../images/watches/f/elegancy/elegancyf03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf04 span {
+	background: url("../images/watches/f/elegancy/elegancyf04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf05 span {
+	background: url("../images/watches/f/elegancy/elegancyf05.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf06 span {
+	background: url("../images/watches/f/elegancy/elegancyf06.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf07 span {
+	background: url("../images/watches/f/elegancy/elegancyf07.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf08 span {
+	background: url("../images/watches/f/elegancy/elegancyf08.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf09 span {
+	background: url("../images/watches/f/elegancy/elegancyf09.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf10 span {
+	background: url("../images/watches/f/elegancy/elegancyf10.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf11 span {
+	background: url("../images/watches/f/elegancy/elegancyf11.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf12 span {
+	background: url("../images/watches/f/elegancy/elegancyf12.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.elegancyf13 span {
+	background: url("../images/watches/f/elegancy/elegancyf13.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+
+.konigf01, .konigf02, .konigf03 {width: 160px;border: none !important;}
+
+.konigf01 span {
+	background: url("../images/watches/f/konig/konigf01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.konigf02 span {
+	background: url("../images/watches/f/konig/konigf02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.konigf03 span {
+	background: url("../images/watches/f/konig/konigf03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+
+
+.pointersf01, .pointersf02 {width: 160px;border: none !important;}
+
+
+.pointersf01 span {
+	background: url("../images/watches/f/pointers/pointersf01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.pointersf02 span {
+	background: url("../images/watches/f/pointers/pointersf02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+
+.princes01, .princes02, .princes03, .princes04, .princes05, .princes06, .princes07, .princes08, .princes09, .princes10, .princes11, .princes12, .princes13 {width: 160px;border: none !important;}
+
+.princes01 span {
+	background: url("../images/watches/f/princes/princes01.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes02 span {
+	background: url("../images/watches/f/princes/princes02.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes03 span {
+	background: url("../images/watches/f/princes/princes03.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes04 span {
+	background: url("../images/watches/f/princes/princes04.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes05 span {
+	background: url("../images/watches/f/princes/princes05.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes06 span {
+	background: url("../images/watches/f/princes/princes06.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes07 span {
+	background: url("../images/watches/f/princes/princes07.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes08 span {
+	background: url("../images/watches/f/princes/princes08.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes09 span {
+	background: url("../images/watches/f/princes/princes09.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes10 span {
+	background: url("../images/watches/f/princes/princes10.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes11 span {
+	background: url("../images/watches/f/princes/princes11.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes12 span {
+	background: url("../images/watches/f/princes/princes12.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
+
+.princes13 span {
+	background: url("../images/watches/f/princes/princes13.png") no-repeat scroll center #ffffff;
+	display: block; margin-bottom: 10px; padding: 188px 10px 10px;
+}
