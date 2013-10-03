@@ -148,7 +148,7 @@
 <ul class="case">
 
 
-<li class="fstitem"><a href="#">POINTERS</a>
+<li class="fstitem"><a href="http://constantim.eu/pointers/">POINTERS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr" class="owl-carousel">
@@ -164,7 +164,7 @@
 
 
 
-<li class="fstitem"><a href="#">BOSS</a>
+<li class="fstitem"><a href="http://constantim.eu/boss/">BOSS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr2" class="owl-carousel">
@@ -183,7 +183,7 @@
 
 
 
-<li class="fstitem"><a href="#">CERAMIC</a>
+<li class="fstitem"><a href="http://constantim.eu/ceramic/">CERAMIC</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr3" class="owl-carousel">
@@ -198,7 +198,7 @@
 
 
 
-<li class="fstitem"><a href="#">STUDENGLAS</a>
+<li class="fstitem"><a href="http://constantim.eu/studenglas/">STUDENGLAS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr4" class="owl-carousel">
@@ -242,7 +242,7 @@
 
 
 
-<li class="fstitem"><a href="#">NAVIGATOR</a>
+<li class="fstitem"><a href="http://constantim.eu/navigator/">NAVIGATOR</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr6" class="owl-carousel">
@@ -256,7 +256,7 @@
 </li><!-- close the drop LI -->
 
 
-<li class="fstitem"><a href="#">KONIG</a>
+<li class="fstitem"><a href="http://constantim.eu/konig/">KONIG</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr7" class="owl-carousel">
@@ -281,7 +281,7 @@
 <ul class="case">
 
 
-<li class="fstitem"><a href="#">POINTERS</a>
+<li class="fstitem"><a href="http://constantim.eu/pointersf/">POINTERS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr8" class="owl-carousel">
@@ -294,7 +294,7 @@
 
 
 
-<li class="fstitem"><a href="#">CERAMIC</a>
+<li class="fstitem"><a href="http://constantim.eu/ceramicf/">CERAMIC</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr9" class="owl-carousel">
@@ -314,7 +314,7 @@
 
 
 
-<li class="fstitem"><a href="#">ELEGANCY</a>
+<li class="fstitem"><a href="http://constantim.eu/elegancy/">ELEGANCY</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr10" class="owl-carousel">
@@ -339,7 +339,7 @@
 
 
 
-<li class="fstitem"><a href="#">CASTLE</a>
+<li class="fstitem"><a href="http://constantim.eu/pointers/castle/">CASTLE</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr11" class="owl-carousel">
@@ -365,7 +365,7 @@
 
 
 
-<li class="fstitem"><a href="#">PRINCESS</a>
+<li class="fstitem"><a href="http://constantim.eu/princess/">PRINCESS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr12" class="owl-carousel">
