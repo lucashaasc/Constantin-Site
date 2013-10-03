@@ -198,7 +198,7 @@
 
 
 
-<li class="fstitem"><a href="http://constantim.eu/studenglas/">STUDENGLAS</a>
+<li class="fstitem"><a href="http://constantim.eu/%EF%BB%BF%EF%BB%BFstudenglas/">STUDENGLAS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr4" class="owl-carousel">
@@ -281,7 +281,7 @@
 <ul class="case">
 
 
-<li class="fstitem"><a href="http://constantim.eu/pointersf/">POINTERS</a>
+<li class="fstitem"><a href="http://constantim.eu/pointers-f/">POINTERS</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr8" class="owl-carousel">
@@ -294,7 +294,7 @@
 
 
 
-<li class="fstitem"><a href="http://constantim.eu/ceramicf/">CERAMIC</a>
+<li class="fstitem"><a href="http://constantim.eu/ceramic-f/">CERAMIC</a>
 <ul class="case2">
 <div id="drpr">
 <div id="owl-drpr9" class="owl-carousel">
@@ -385,11 +385,6 @@
 </div><!-- /case -->
 </ul><!-- /the megamenu dropdown -->
 </li><!-- close the drop LI -->
-
-
-
-
-		
  
 </ul>
 </li><!-- /SUPERMENU DROP END -->
